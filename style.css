@@ -1,0 +1,57 @@
+#all,#navbar{
+    box-shadow: 1px 1px 20px 1px rgb(0, 0, 0) !important;
+    box-sizing: border-box !important; 
+}
+#welcomingHead{
+    color: #17a2b8;
+    background-color: #04141d !important;
+}
+body{
+    background-color: #04141d !important;
+}
+#start{
+    color: #17a2b8;
+    background-color: #04141d !important;  
+
+}
+#email{
+    /* background-color: #24353f; */
+    border-color: white !important;
+}
+input{
+    background-color: transparent !important;
+}
+
+.end a{
+    text-decoration: none;
+}
+
+.end a:hover{
+    text-decoration: underline;
+}
+#login{
+    display: none;
+}
+
+button:hover{
+    color: #fff !important;
+}
+
+#error1, #error2,#error3{
+    display: none;
+}
+
+#Up-p{
+    display: none;
+}
+
+#correct{
+    display: none;
+}
+#welcome{
+    display: none;
+}
+
+#navbar{
+    display: none;
+}

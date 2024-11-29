@@ -1,0 +1,66 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <script   src="js/bootstrap.bundle.min.js"></script>
+  
+</head>
+<body>
+
+  <div class=" row justify-content-center align-items-center text-center ">
+    <nav id="navbar" class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand">Smart Login System</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a id="logout" class="nav-link btn btn-outline-warning" aria-current="page" href="#">Logout</a>
+              </li>
+          </div>
+        </div>
+    </div>
+      </nav>
+    <div id="all" class="m-auto w-50 p-5 my-5">
+        <h1 class="m-auto w-50 p-5" id="welcomingHead"></h1>
+       <div id="signingForm" class="text-center">
+        <h1 id="start" class="mb-3">Smart Login System</h1>
+
+        <input placeholder="Enter your name" type="text" class=" my-3  w-100 my-3 form-control m-auto text-white"
+            id="name">
+        <input placeholder="Enter your email" type="text" class=" my-3  w-100 my-3 form-control m-auto text-white"
+            id="email">
+
+        <input placeholder="Enter your password" type="password"
+            class="my-3  w-100 my-3 form-control m-auto  text-white" id="pass">
+        <p id="error1" class="fw-bold text-danger">
+            Name, Email or Password are incorrect
+        </p>
+        <p id="error2" class="fw-bold text-danger">
+            Email or Password are incorrect
+        </p>
+        <p id="error3" class="fw-bold text-danger">
+           Email already Exsists
+        </p>
+        <p id="correct" class="text-success fw-bold">Success</p>
+        <button class="btn btn-outline-info w-100 my-3" id="login">Login</button>
+        <button class="btn btn-outline-info w-100 my-3" id="sign-up">Sign up</button>
+
+        <p class="end  text-white" id="Up-p">Don't have an account? <a class="text-white" id="up">Sign Up</a>
+        </p>
+        <p class="end text-white" id="In-p">Have An Exsisting Account? <a class="text-white" id="in">Sign in</a></p>
+
+       </div>
+    </div>
+</div>
+    <script src="main.js"></script>
+</body>
+
+
+</html>
